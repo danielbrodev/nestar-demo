@@ -4,7 +4,7 @@ import { Container } from "@mui/material";
 const PropertyList = () => {
   return (
     <>
-      <Container>Properties Lists</Container>
+      <Container>Properties Lists </Container>
     </>
   );
 };
