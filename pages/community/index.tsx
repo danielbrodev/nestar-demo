@@ -1,11 +1,11 @@
 import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
-import { Container } from "@mui/material";
+import { Container, Stack } from "@mui/material";
 
 const CommunityPage = () => {
   return (
-    <>
-      <Container>Community Page</Container>
-    </>
+    <div style={{ margin: "20px 0px" }}>
+      <Stack className="container">Community Page</Stack>
+    </div>
   );
 };
 

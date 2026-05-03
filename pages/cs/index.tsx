@@ -1,11 +1,12 @@
 import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
 import { Stack } from "@mui/material";
 
-const PropertyList = (props: any) => {
+const ScPage = () => {
   return (
     <div style={{ margin: "20px 0px" }}>
-      <Stack className="container">Properties Lists</Stack>
+      <Stack className="container">ScPage</Stack>
     </div>
   );
 };
-export default withLayoutBasic(PropertyList);
+
+export default withLayoutBasic(ScPage);
