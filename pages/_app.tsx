@@ -3,7 +3,10 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import { light } from "../scss/MaterialTheme/index";
 import { useState } from "react";
-import '../scss/app.scss'
+
+// Global SCSS fayllarini import qilish
+import "../scss/app.scss";
+import "../scss/pc/main.scss";
 
 {
   /** NEXTJS Global integrationlar uchun ishlatiladi */
