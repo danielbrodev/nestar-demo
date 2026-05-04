@@ -16,6 +16,6 @@ const Advertisement = () => {
       </video>
     </Stack>
   );
-};
+}; 
 
 export default Advertisement;

@@ -5,12 +5,7 @@ import TopProperties from "@/libs/components/homepage/TopProperties";
 import TrendProperties from "@/libs/components/homepage/TrendProperties";
 import withLayoutMain from "@/libs/components/layout/LayoutHome";
 import { Box, Container, Stack } from "@mui/material";
-import { NextPage } from "next";
-
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+import { NextPage } from "next"; 
 
 const Home: NextPage = () => {
   return (

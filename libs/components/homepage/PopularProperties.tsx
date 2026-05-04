@@ -4,11 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import PopularPropertyCard from "./PopularPropertyCard";
 import Link from "next/link";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-
 const PopularProperties = ({
   initialInput = [1, 2, 3, 4, 5, 6, 7],
   ...props
